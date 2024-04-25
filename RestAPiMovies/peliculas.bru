@@ -1,0 +1,27 @@
+meta {
+  name: peliculas
+  type: http
+  seq: 1
+}
+
+put {
+  url: http://localhost:3000/api/peliculas/1
+  body: json
+  auth: none
+}
+
+headers {
+  Content-Type: application/json
+}
+
+body:json {
+  {
+    "titulo": "angelito",
+    "director": "Ridley Scott",
+    "año": "1991",
+    "genero": "ciencia ficcion",
+    "duracion": "117 min",
+    "imagen": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.ecartelera.com%2Fpeliculas%2Faliens-el-regreso%2F&psig=AOvVaw3",
+    "rating": "5 estrellas"
+  }
+}

@@ -1,0 +1,3 @@
+que es una REST API?
+Las API REST utilizan el protocolo HTTP para enviar y recibir datos. Las API web, por otro lado,
+se basan en múltiples protocolos de comunicación como SOAP, XML-RPC y JSON-RPC.
